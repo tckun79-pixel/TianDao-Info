@@ -101,9 +101,9 @@ def page_dashboard(sb):
             with c5:
                 st.metric("Posted IDs tracked", total_posted)
         else:
-            st.info("state.json not found.")
+            st.caption("No local state file yet.")
     except Exception as e:
-        st.warning(f"Could not read state.json: {e}")
+        st.caption("State summary unavailable.")
 
     st.subheader("Religion distribution")
     try:
