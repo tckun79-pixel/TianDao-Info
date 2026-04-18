@@ -1,0 +1,16 @@
+{
+  "religions": [
+    "buddhism"
+  ],
+  "total_quotes": 91,
+  "by_religion": {
+    "buddhism": {
+      "nature": 9,
+      "practice": 7,
+      "emptiness": 18,
+      "mind": 50,
+      "liberation": 7
+    }
+  },
+  "last_updated": "2026-04-18T17:20:00.870208"
+}

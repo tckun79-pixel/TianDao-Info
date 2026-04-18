@@ -1,0 +1,138 @@
+[
+  {
+    "quote_text": "春有百花秋有月。夏有凉风冬有雪。若无闲事挂心头。便是人间好时节。",
+    "religion": "buddhism",
+    "sub_category": "nature",
+    "author": "无门慧开",
+    "source": "无门关",
+    "tags": [
+      "春有百花",
+      "秋有月",
+      "夏有凉风",
+      "冬有雪"
+    ],
+    "merge_group": "bud_grp000",
+    "display_order": 0,
+    "is_merged": true,
+    "sub_category_label": "🌿 自然"
+  },
+  {
+    "quote_text": "青青翠竹，尽是法身。",
+    "religion": "buddhism",
+    "sub_category": "nature",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "青青翠竹",
+      "尽是法身"
+    ],
+    "merge_group": null,
+    "display_order": 39,
+    "is_merged": false,
+    "sub_category_label": "🌿 自然"
+  },
+  {
+    "quote_text": "山河大地，皆是法身。",
+    "religion": "buddhism",
+    "sub_category": "nature",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "山河大地",
+      "皆是法身"
+    ],
+    "merge_group": null,
+    "display_order": 41,
+    "is_merged": false,
+    "sub_category_label": "🌿 自然"
+  },
+  {
+    "quote_text": "一花一世界。",
+    "religion": "buddhism",
+    "sub_category": "nature",
+    "author": "—",
+    "source": "华严经",
+    "tags": [
+      "一花一世"
+    ],
+    "merge_group": null,
+    "display_order": 42,
+    "is_merged": false,
+    "sub_category_label": "🌿 自然"
+  },
+  {
+    "quote_text": "本地风光。",
+    "religion": "buddhism",
+    "sub_category": "nature",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "本地风光"
+    ],
+    "merge_group": null,
+    "display_order": 61,
+    "is_merged": false,
+    "sub_category_label": "🌿 自然"
+  },
+  {
+    "quote_text": "见山是山，见山不是山，见山还是山。",
+    "religion": "buddhism",
+    "sub_category": "nature",
+    "author": "青原惟信",
+    "source": "五灯会元",
+    "tags": [
+      "见山是山",
+      "见山不是",
+      "见山还是"
+    ],
+    "merge_group": null,
+    "display_order": 69,
+    "is_merged": false,
+    "sub_category_label": "🌿 自然"
+  },
+  {
+    "quote_text": "看山还是山，看水还是水。",
+    "religion": "buddhism",
+    "sub_category": "nature",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "看山还是",
+      "看水还是"
+    ],
+    "merge_group": null,
+    "display_order": 70,
+    "is_merged": false,
+    "sub_category_label": "🌿 自然"
+  },
+  {
+    "quote_text": "云在青天水在瓶。",
+    "religion": "buddhism",
+    "sub_category": "nature",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "云在青天",
+      "水在瓶"
+    ],
+    "merge_group": null,
+    "display_order": 77,
+    "is_merged": false,
+    "sub_category_label": "🌿 自然"
+  },
+  {
+    "quote_text": "万古长空，一朝风月。",
+    "religion": "buddhism",
+    "sub_category": "nature",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "万古长空",
+      "一朝风月"
+    ],
+    "merge_group": null,
+    "display_order": 83,
+    "is_merged": false,
+    "sub_category_label": "🌿 自然"
+  }
+]

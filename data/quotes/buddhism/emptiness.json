@@ -1,0 +1,278 @@
+[
+  {
+    "quote_text": "一切有为法，如梦幻泡影。如露亦如电，应作如是观。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "—",
+    "source": "金刚经",
+    "tags": [
+      "一切有为",
+      "如梦幻泡",
+      "如露亦如",
+      "应作如是"
+    ],
+    "merge_group": "bud_grp002",
+    "display_order": 2,
+    "is_merged": true,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "空手把锄头，步行骑水牛。人从桥上过，桥流水不流。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "空手把锄",
+      "步行骑水",
+      "人从桥上",
+      "桥流水不"
+    ],
+    "merge_group": "bud_grp004",
+    "display_order": 4,
+    "is_merged": true,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "本来无一物，何处惹尘埃。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "本来无一",
+      "何处惹尘"
+    ],
+    "merge_group": null,
+    "display_order": 7,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "菩提本无树，明镜亦非台。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "菩提本无",
+      "明镜亦非"
+    ],
+    "merge_group": null,
+    "display_order": 8,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "无念为宗。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "无念为宗"
+    ],
+    "merge_group": null,
+    "display_order": 20,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "无相为体。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "无相为体"
+    ],
+    "merge_group": null,
+    "display_order": 21,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "无住为本。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "无住为本"
+    ],
+    "merge_group": null,
+    "display_order": 22,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "无事是贵人。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "无事是贵"
+    ],
+    "merge_group": null,
+    "display_order": 31,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "赤肉团上，有一无位真人。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "临济义玄",
+    "source": "临济录",
+    "tags": [
+      "赤肉团上",
+      "有一无位",
+      "真人"
+    ],
+    "merge_group": null,
+    "display_order": 32,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "平常无事，便是安乐。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "平常无事",
+      "便是安乐"
+    ],
+    "merge_group": null,
+    "display_order": 33,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "担水砍柴，无非妙道。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "担水砍柴",
+      "无非妙道"
+    ],
+    "merge_group": null,
+    "display_order": 36,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "柳绿花红，无非妙道。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "柳绿花红",
+      "无非妙道"
+    ],
+    "merge_group": null,
+    "display_order": 37,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "郁郁黄花，无非般若。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "郁郁黄花",
+      "无非般若"
+    ],
+    "merge_group": null,
+    "display_order": 38,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "溪声尽是广长舌，山色无非清净身。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "苏轼",
+    "source": "赠东林总长老偈",
+    "tags": [
+      "溪声尽是",
+      "广长舌",
+      "山色无非",
+      "清净身"
+    ],
+    "merge_group": null,
+    "display_order": 40,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "色即是空，空即是色。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "—",
+    "source": "心经",
+    "tags": [
+      "色即是空",
+      "空即是色"
+    ],
+    "merge_group": null,
+    "display_order": 53,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "凡所有相，皆是虚妄。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "—",
+    "source": "金刚经",
+    "tags": [
+      "凡所有相",
+      "皆是虚妄"
+    ],
+    "merge_group": null,
+    "display_order": 54,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "若见诸相非相，即见如来。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "—",
+    "source": "金刚经",
+    "tags": [
+      "若见诸相",
+      "非相",
+      "即见如来"
+    ],
+    "merge_group": null,
+    "display_order": 55,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  },
+  {
+    "quote_text": "来时无所从来，去时亦无所去。",
+    "religion": "buddhism",
+    "sub_category": "emptiness",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "来时无所",
+      "从来",
+      "去时亦无",
+      "所去"
+    ],
+    "merge_group": null,
+    "display_order": 72,
+    "is_merged": false,
+    "sub_category_label": "🌀 空性"
+  }
+]

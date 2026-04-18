@@ -1,0 +1,743 @@
+[
+  {
+    "quote_text": "心无挂碍。无挂碍故，无有恐怖。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "—",
+    "source": "心经",
+    "tags": [
+      "心无挂碍",
+      "无挂碍故",
+      "无有恐怖"
+    ],
+    "merge_group": "bud_grp003",
+    "display_order": 3,
+    "is_merged": true,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "一灯能除千年暗。一智能灭万年愚。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "一灯能除",
+      "千年暗",
+      "一智能灭",
+      "万年愚"
+    ],
+    "merge_group": "bud_grp006",
+    "display_order": 6,
+    "is_merged": true,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "应无所住，而生其心。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "—",
+    "source": "金刚经",
+    "tags": [
+      "应无所住",
+      "而生其心"
+    ],
+    "merge_group": null,
+    "display_order": 9,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "直指人心，见性成佛。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "达摩",
+    "source": "禅宗传灯录",
+    "tags": [
+      "直指人心",
+      "见性成佛"
+    ],
+    "merge_group": null,
+    "display_order": 10,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "不立文字，教外别传。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "达摩",
+    "source": "禅宗传灯录",
+    "tags": [
+      "不立文字",
+      "教外别传"
+    ],
+    "merge_group": null,
+    "display_order": 11,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "平常心是道。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "南泉普愿",
+    "source": "景德传灯录",
+    "tags": [
+      "平常心是"
+    ],
+    "merge_group": null,
+    "display_order": 12,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "即心即佛。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "即心即佛"
+    ],
+    "merge_group": null,
+    "display_order": 14,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "非心非佛。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "非心非佛"
+    ],
+    "merge_group": null,
+    "display_order": 15,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "明心见性。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "明心见性"
+    ],
+    "merge_group": null,
+    "display_order": 16,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "见性成佛。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "见性成佛"
+    ],
+    "merge_group": null,
+    "display_order": 17,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "佛法在世间，不离世间觉。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "佛法在世",
+      "不离世间"
+    ],
+    "merge_group": null,
+    "display_order": 18,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "离世觅菩提，恰如求兔角。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "离世觅菩",
+      "恰如求兔"
+    ],
+    "merge_group": null,
+    "display_order": 19,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "前念迷即凡夫，后念悟即佛。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "前念迷即",
+      "凡夫",
+      "后念悟即"
+    ],
+    "merge_group": null,
+    "display_order": 23,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "念念不离自性。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "念念不离",
+      "自性"
+    ],
+    "merge_group": null,
+    "display_order": 24,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "迷时师度，悟时自度。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "迷时师度",
+      "悟时自度"
+    ],
+    "merge_group": null,
+    "display_order": 25,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "自性若悟，众生是佛。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "自性若悟",
+      "众生是佛"
+    ],
+    "merge_group": null,
+    "display_order": 26,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "一念愚即般若绝，一念智即般若生。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "一念愚即",
+      "般若绝",
+      "一念智即",
+      "般若生"
+    ],
+    "merge_group": null,
+    "display_order": 27,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "不是风动，不是幡动，仁者心动。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "不是风动",
+      "不是幡动",
+      "仁者心动"
+    ],
+    "merge_group": null,
+    "display_order": 28,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "逢佛杀佛，逢祖杀祖。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "临济义玄",
+    "source": "临济录",
+    "tags": [
+      "逢佛杀佛",
+      "逢祖杀祖"
+    ],
+    "merge_group": null,
+    "display_order": 29,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "随处作主，立处皆真。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "临济义玄",
+    "source": "临济录",
+    "tags": [
+      "随处作主",
+      "立处皆真"
+    ],
+    "merge_group": null,
+    "display_order": 30,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "日日是好日。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "云门文偃",
+    "source": "云门录",
+    "tags": [
+      "日日是好"
+    ],
+    "merge_group": null,
+    "display_order": 34,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "一叶如来。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "—",
+    "source": "华严经",
+    "tags": [
+      "一叶如来"
+    ],
+    "merge_group": null,
+    "display_order": 43,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "万法唯心。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "万法唯心"
+    ],
+    "merge_group": null,
+    "display_order": 44,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "心外无法。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "心外无法"
+    ],
+    "merge_group": null,
+    "display_order": 45,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "触目皆道。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "触目皆道"
+    ],
+    "merge_group": null,
+    "display_order": 46,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "当下即是。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "当下即是"
+    ],
+    "merge_group": null,
+    "display_order": 47,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "烦恼即菩提。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "烦恼即菩"
+    ],
+    "merge_group": null,
+    "display_order": 51,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "远离颠倒梦想。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "—",
+    "source": "心经",
+    "tags": [
+      "远离颠倒",
+      "梦想"
+    ],
+    "merge_group": null,
+    "display_order": 56,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "心净则国土净。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "心净则国",
+      "土净"
+    ],
+    "merge_group": null,
+    "display_order": 57,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "欲得净土，当净其心。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "欲得净土",
+      "当净其心"
+    ],
+    "merge_group": null,
+    "display_order": 58,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "心生种种法生，心灭种种法灭。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "心生种种",
+      "法生",
+      "心灭种种",
+      "法灭"
+    ],
+    "merge_group": null,
+    "display_order": 59,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "一切现成。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "一切现成"
+    ],
+    "merge_group": null,
+    "display_order": 60,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "莫向外求。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "莫向外求"
+    ],
+    "merge_group": null,
+    "display_order": 62,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "向内观心。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "向内观心"
+    ],
+    "merge_group": null,
+    "display_order": 63,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "但尽凡心，别无圣解。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "但尽凡心",
+      "别无圣解"
+    ],
+    "merge_group": null,
+    "display_order": 64,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "但用此心，直了成佛。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "但用此心",
+      "直了成佛"
+    ],
+    "merge_group": null,
+    "display_order": 65,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "但自无心，于万物何妨。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "但自无心",
+      "于万物何"
+    ],
+    "merge_group": null,
+    "display_order": 66,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "不怕念起，只怕觉迟。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "不怕念起",
+      "只怕觉迟"
+    ],
+    "merge_group": null,
+    "display_order": 67,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "念起即觉，觉之即无。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "念起即觉",
+      "觉之即无"
+    ],
+    "merge_group": null,
+    "display_order": 68,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "一切众生，皆有佛性。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "一切众生",
+      "皆有佛性"
+    ],
+    "merge_group": null,
+    "display_order": 75,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "当处出生，随处灭尽。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "当处出生",
+      "随处灭尽"
+    ],
+    "merge_group": null,
+    "display_order": 76,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "大死一番，方得大活。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "大死一番",
+      "方得大活"
+    ],
+    "merge_group": null,
+    "display_order": 78,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "庭前柏树子。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "赵州从谂",
+    "source": "赵州录",
+    "tags": [
+      "庭前柏树"
+    ],
+    "merge_group": null,
+    "display_order": 79,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "麻三斤。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "云门文偃",
+    "source": "云门录",
+    "tags": [
+      "麻三斤"
+    ],
+    "merge_group": null,
+    "display_order": 80,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "本来面目。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "本来面目"
+    ],
+    "merge_group": null,
+    "display_order": 81,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "父母未生前本来面目。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "父母未生",
+      "前本来面"
+    ],
+    "merge_group": null,
+    "display_order": 82,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "不取于相，如如不动。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "—",
+    "source": "金刚经",
+    "tags": [
+      "不取于相",
+      "如如不动"
+    ],
+    "merge_group": null,
+    "display_order": 84,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "见色明心，闻声悟道。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "见色明心",
+      "闻声悟道"
+    ],
+    "merge_group": null,
+    "display_order": 85,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "心安即是归处。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "心安即是",
+      "归处"
+    ],
+    "merge_group": null,
+    "display_order": 88,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  },
+  {
+    "quote_text": "当下这一念，便是归家路。",
+    "religion": "buddhism",
+    "sub_category": "mind",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "当下这一",
+      "便是归家"
+    ],
+    "merge_group": null,
+    "display_order": 89,
+    "is_merged": false,
+    "sub_category_label": "🧠 心性"
+  }
+]

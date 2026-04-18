@@ -1,0 +1,104 @@
+[
+  {
+    "quote_text": "回头是岸。",
+    "religion": "buddhism",
+    "sub_category": "liberation",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "回头是岸"
+    ],
+    "merge_group": null,
+    "display_order": 48,
+    "is_merged": false,
+    "sub_category_label": "✨ 解脱"
+  },
+  {
+    "quote_text": "放下即自在。",
+    "religion": "buddhism",
+    "sub_category": "liberation",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "放下即自"
+    ],
+    "merge_group": null,
+    "display_order": 49,
+    "is_merged": false,
+    "sub_category_label": "✨ 解脱"
+  },
+  {
+    "quote_text": "一念放下，万般自在。",
+    "religion": "buddhism",
+    "sub_category": "liberation",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "一念放下",
+      "万般自在"
+    ],
+    "merge_group": null,
+    "display_order": 50,
+    "is_merged": false,
+    "sub_category_label": "✨ 解脱"
+  },
+  {
+    "quote_text": "生死即涅槃。",
+    "religion": "buddhism",
+    "sub_category": "liberation",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "生死即涅"
+    ],
+    "merge_group": null,
+    "display_order": 52,
+    "is_merged": false,
+    "sub_category_label": "✨ 解脱"
+  },
+  {
+    "quote_text": "随缘不变，不变随缘。",
+    "religion": "buddhism",
+    "sub_category": "liberation",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "随缘不变",
+      "不变随缘"
+    ],
+    "merge_group": null,
+    "display_order": 73,
+    "is_merged": false,
+    "sub_category_label": "✨ 解脱"
+  },
+  {
+    "quote_text": "随缘消旧业，更莫造新殃。",
+    "religion": "buddhism",
+    "sub_category": "liberation",
+    "author": "—",
+    "source": "禅宗偈语",
+    "tags": [
+      "随缘消旧",
+      "更莫造新"
+    ],
+    "merge_group": null,
+    "display_order": 74,
+    "is_merged": false,
+    "sub_category_label": "✨ 解脱"
+  },
+  {
+    "quote_text": "放下分别，便见清凉。",
+    "religion": "buddhism",
+    "sub_category": "liberation",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "放下分别",
+      "便见清凉"
+    ],
+    "merge_group": null,
+    "display_order": 90,
+    "is_merged": false,
+    "sub_category_label": "✨ 解脱"
+  }
+]

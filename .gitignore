@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+logs/
+data/state.json
+data/quotes/selected_quote.json
+*.egg-info/
+.venv/

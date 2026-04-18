@@ -1,0 +1,110 @@
+[
+  {
+    "quote_text": "行亦禅，坐亦禅。语默动静体安然。",
+    "religion": "buddhism",
+    "sub_category": "practice",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "行亦禅",
+      "坐亦禅",
+      "语默动静",
+      "体安然"
+    ],
+    "merge_group": "bud_grp001",
+    "display_order": 1,
+    "is_merged": true,
+    "sub_category_label": "🍵 修行"
+  },
+  {
+    "quote_text": "心平何劳持戒。行直何用修禅。",
+    "religion": "buddhism",
+    "sub_category": "practice",
+    "author": "惠能 (六祖)",
+    "source": "六祖坛经",
+    "tags": [
+      "心平何劳",
+      "持戒",
+      "行直何用",
+      "修禅"
+    ],
+    "merge_group": "bud_grp005",
+    "display_order": 5,
+    "is_merged": true,
+    "sub_category_label": "🍵 修行"
+  },
+  {
+    "quote_text": "吃茶去。",
+    "religion": "buddhism",
+    "sub_category": "practice",
+    "author": "赵州从谂",
+    "source": "赵州录",
+    "tags": [
+      "吃茶去"
+    ],
+    "merge_group": null,
+    "display_order": 13,
+    "is_merged": false,
+    "sub_category_label": "🍵 修行"
+  },
+  {
+    "quote_text": "饥来吃饭，困来即眠。",
+    "religion": "buddhism",
+    "sub_category": "practice",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "饥来吃饭",
+      "困来即眠"
+    ],
+    "merge_group": null,
+    "display_order": 35,
+    "is_merged": false,
+    "sub_category_label": "🍵 修行"
+  },
+  {
+    "quote_text": "睡时便睡，坐时便坐。",
+    "religion": "buddhism",
+    "sub_category": "practice",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "睡时便睡",
+      "坐时便坐"
+    ],
+    "merge_group": null,
+    "display_order": 71,
+    "is_merged": false,
+    "sub_category_label": "🍵 修行"
+  },
+  {
+    "quote_text": "脚下即是道场。",
+    "religion": "buddhism",
+    "sub_category": "practice",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "脚下即是",
+      "道场"
+    ],
+    "merge_group": null,
+    "display_order": 86,
+    "is_merged": false,
+    "sub_category_label": "🍵 修行"
+  },
+  {
+    "quote_text": "处处皆是道场。",
+    "religion": "buddhism",
+    "sub_category": "practice",
+    "author": "禅宗古德",
+    "source": "禅宗语录",
+    "tags": [
+      "处处皆是",
+      "道场"
+    ],
+    "merge_group": null,
+    "display_order": 87,
+    "is_merged": false,
+    "sub_category_label": "🍵 修行"
+  }
+]
