@@ -70,74 +70,85 @@ def classify_sub_category(text, religion):
             return t
     return candidates[0]
 
+
 def page_dashboard(sb):
-    st.header("📊 Dashboard")
+    st.header("TianDao-Info Dashboard")
+
+    quotes_res = sb.table("quotes").select("*", count="exact").execute()
+    total_quotes = quotes_res.count or 0
+    all_quotes = quotes_res.data or []
+    active_religions = len({q.get("religion") for q in all_quotes if q.get("religion")})
+
+    c1, c2 = st.columns(2)
+    with c1:
+        st.metric("Total quotes", total_quotes)
+    with c2:
+        st.metric("Active religions", active_religions)
+
+    st.subheader("State summary")
     try:
-        r = sb.table("quotes").select("id", count="exact").execute()
-        total = r.count if hasattr(r, "count") else len(r.data)
-    except:
-        total = 0
+        state_path = BASE_DIR / "data" / "state.json"
+        if state_path.exists():
+            state = json.loads(state_path.read_text(encoding="utf-8"))
+            postedids = state.get("postedids", {})
+            total_posted = sum(len(v) for v in postedids.values()) if isinstance(postedids, dict) else 0
+
+            c3, c4, c5 = st.columns(3)
+            with c3:
+                st.metric("Last date", state.get("lastdate", "-"))
+            with c4:
+                st.metric("Last quote ID", state.get("lastquoteid", "-"))
+            with c5:
+                st.metric("Posted IDs tracked", total_posted)
+        else:
+            st.info("state.json not found.")
+    except Exception as e:
+        st.warning(f"Could not read state.json: {e}")
+
+    st.subheader("Religion distribution")
     try:
-        r = sb.table("quotes").select("religion").execute()
-        by_rel = {}
-        for row in r.data:
-            rel = row.get("religion", "unknown")
-            by_rel[rel] = by_rel.get(rel, 0) + 1
-    except:
-        by_rel = {}
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Total Quotes", total)
-    c2.metric("Active Religions", len(by_rel))
-    c3.metric("Top Religion", max(by_rel, key=by_rel.get) if by_rel else "—")
-    st.divider()
-    st.subheader("Religion Distribution")
-    if by_rel:
-        cols = st.columns(min(len(by_rel), 3))
-        for i, (rel, cnt) in enumerate(sorted(by_rel.items(), key=lambda x: -x[1])):
-            color = RELIGION_COLORS.get(rel, "#5B7FA6")
-            label = RELIGION_LABELS.get(rel, rel)
-            with cols[i % 3]:
-                st.markdown(
-                    f"<div style='background:{color}22;border-left:4px solid {color};"
-                    f"padding:12px;border-radius:4px;margin:4px 0'>"
-                    f"<b>{label}</b><br><span style='font-size:24px'>{cnt}</span> quotes</div>",
-                    unsafe_allow_html=True,
-                )
-    st.divider()
-    if status.startswith("valid"):
-        channel = status.split(":", 1)[1]
+        stats = sb.table("quote_stats").select("*").execute()
+        stats_rows = stats.data or []
+        if stats_rows:
+            for row in stats_rows:
+                religion = row.get("religionlabel") or row.get("religion") or "Unknown"
+                subcat = row.get("subcategorylabel") or row.get("subcategory") or "Unknown"
+                count = row.get("quote_count", 0)
+                avg_charcount = row.get("avg_charcount", 0)
+                st.write(f"**{religion} / {subcat}** — {count} quotes, avg char count {avg_charcount}")
+        else:
+            st.info("No quote_stats data found.")
+    except Exception as e:
+        st.warning(f"Could not load quote_stats: {e}")
+
+    st.subheader("Recent 6 quotes")
+    recent = sorted(
+        all_quotes,
+        key=lambda q: q.get("updated_at") or q.get("created_at") or "",
+        reverse=True
+    )[:6]
+
+    if recent:
+        for q in recent:
+            content = q.get("content", "")
+            author = q.get("author", "")
+            source = q.get("source", "")
+            tags = q.get("tags", [])
+            if isinstance(tags, str):
+                try:
+                    tags = json.loads(tags)
+                except Exception:
+                    tags = [tags]
+
+            st.markdown(f"**{content}**")
+            meta = " — ".join([x for x in [author, source] if x])
+            if meta:
+                st.caption(meta)
+            if tags:
+                st.caption(" · ".join(tags))
+            st.divider()
     else:
-        channel = status.split(":", 1)[1] if ":" in status else "unknown"
-    st.divider()
-    st.subheader("Pipeline State")
-    sf = BASE_DIR / "data" / "state" / "rotation_state.json"
-    if sf.exists():
-        with open(sf) as f:
-            state = json.load(f)
-        for rel, info in state.items():
-            idx = info.get("rotation_index", 0)
-            posted = len(info.get("posted_ids", []))
-            st.text(f"{RELIGION_LABELS.get(rel, rel)}: index={idx}, posted={posted}")
-    else:
-        st.info("No state file")
-    st.divider()
-    st.subheader("Recent Quotes")
-    try:
-        r = sb.table("quotes").select("*").order("created_at", desc=True).limit(6).execute()
-        for q in r.data:
-            rel = q.get("religion", "general")
-            color = RELIGION_COLORS.get(rel, "#5B7FA6")
-            tags = q.get("tags", []) or []
-            tags_str = " · ".join([f"`{t}`" for t in tags[:4]])
-            st.markdown(
-                f"<div style='border-left:4px solid {color};padding:8px 12px;margin:8px 0;"
-                f"background:#f8f9fa;border-radius:0 4px 4px 0'>"
-                f"<p style='margin:0;font-family:serif'>{q.get('content','')[:100]}</p>"
-                f"<small>{q.get('author','')} · {q.get('source','')} {tags_str}</small></div>",
-                unsafe_allow_html=True,
-            )
-    except Exception as exc:
-        st.error(f"Error: {exc}")
+        st.info("No quotes found.")
 
 def page_browse(sb):
     st.header("📖 Browse Quotes")
