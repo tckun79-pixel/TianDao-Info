@@ -70,31 +70,6 @@ def classify_sub_category(text, religion):
             return t
     return candidates[0]
 
-def get_discord_status():
-    if not DISCORD_ENV.exists():
-        return "invalid:unknown"
-    channel = "unknown"
-    webhook_url = ""
-    with open(DISCORD_ENV) as fh:
-        for line in fh:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            line = line.removeprefix("export").strip()
-            if "=" not in line:
-                continue
-            k, _, v = line.partition("=")
-            k = k.strip()
-            v = v.strip().strip('"').strip("'")
-            if k == "DISCORD_CHANNEL_NAME":
-                channel = v
-            elif k == "DISCORD_WEBHOOK_URL":
-                webhook_url = v
-    import re as _re
-    if _re.match(r"^https://discord\.com/api/webhooks/\d+/.+$", webhook_url):
-        return f"valid:{channel}"
-    return f"invalid:{channel}"
-
 def page_dashboard(sb):
     st.header("📊 Dashboard")
     try:
@@ -129,8 +104,6 @@ def page_dashboard(sb):
                     unsafe_allow_html=True,
                 )
     st.divider()
-    st.subheader("Discord Status")
-    status = get_discord_status()
     if status.startswith("valid"):
         channel = status.split(":", 1)[1]
         st.success(f"✅ Connected — {channel}")
