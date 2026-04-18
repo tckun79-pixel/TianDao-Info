@@ -106,10 +106,8 @@ def page_dashboard(sb):
     st.divider()
     if status.startswith("valid"):
         channel = status.split(":", 1)[1]
-        st.success(f"✅ Connected — {channel}")
     else:
         channel = status.split(":", 1)[1] if ":" in status else "unknown"
-        st.error(f"❌ Invalid webhook — {channel}")
     st.divider()
     st.subheader("Pipeline State")
     sf = BASE_DIR / "data" / "state" / "rotation_state.json"
