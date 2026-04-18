@@ -72,20 +72,26 @@ def classify_sub_category(text, religion):
 
 def get_discord_status():
     if not DISCORD_ENV.exists():
-        return "file_missing"
-    with open(DISCORD_ENV) as f:
-        content = f.read()
+        return "invalid:unknown"
     channel = "unknown"
-    valid = False
-    for line in content.split("\n"):
-        if "=" in line:
-            k, v = line.strip().split("=", 1)
+    webhook_url = ""
+    with open(DISCORD_ENV) as fh:
+        for line in fh:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            line = line.removeprefix("export").strip()
+            if "=" not in line:
+                continue
+            k, _, v = line.partition("=")
+            k = k.strip()
+            v = v.strip().strip('"').strip("'")
             if k == "DISCORD_CHANNEL_NAME":
-                channel = v.strip()
+                channel = v
             elif k == "DISCORD_WEBHOOK_URL":
-                if re.match(r"^https://discord\.com/api/webhooks/\d+/.+$", v.strip()):
-                    valid = True
-    if valid:
+                webhook_url = v
+    import re as _re
+    if _re.match(r"^https://discord\.com/api/webhooks/\d+/.+$", webhook_url):
         return f"valid:{channel}"
     return f"invalid:{channel}"
 
